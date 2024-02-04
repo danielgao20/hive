@@ -1,6 +1,6 @@
 # LavaLab Dev Challenge!
 
-Hey there! This is my build of the LavaLab Spring 2024 Developer Challenge.
+Hey there! This is my build for the LavaLab Spring 2024 Developer Challenge.
 
 ## Features
 
