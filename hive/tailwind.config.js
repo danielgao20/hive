@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Helvetica', 'sans-serif'],
+        PlusJakartaSans: ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
 };
-

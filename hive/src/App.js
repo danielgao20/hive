@@ -1,21 +1,13 @@
 import React from 'react';
-import NavBar from './NavBar';
-import IntegrationCard from './IntegrationCard';
-import applications from './util/data/applications.json';
-import shadow from './assets/shadow.png';
+import NavBar from './components/NavBar';
+import IntegrationCard from './components/IntegrationCard';
+import tools from './util/data/tools.json';
+import shadowImage from './assets/shadow.png';
 
 function App() {
-  const mainStyle = {
-    backgroundImage: `url(${shadow})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center center',
-  }
-
   function handleBackClick() {
     alert('Back button clicked!');
   }
-
   function handleFinishClick() {
     alert('Finish button clicked!');
   }
@@ -23,18 +15,20 @@ function App() {
   return (
     <>
       <NavBar />
-      <main style={mainStyle} className="min-h-screen flex flex-col justify-center px-4 md:px-8">
-        <h1 className="mb-8 text-4xl font-medium">Connect your favorite tools.</h1>
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {applications.map((app) => (
-            <IntegrationCard key={app.id} {...app} />
+      <main className="min-h-screen flex flex-col justify-center p-4 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${shadowImage})` }}>
+        <h1 className="w-[585px] h-[77px] mt-[30px] mb-[30px] ml-[20px] font-sans text-[40px] font-normal leading-[77px] text-left">
+          Connect your favorite tools.
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ml-[20px]">
+          {tools.map((tool) => (
+            <IntegrationCard key={tool.id} {...tool} />
           ))}
         </div>
-        <div className="mt-16 space-x-4">
-          <button onClick={handleBackClick} className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+        <div className="ml-5 mb-10 absolute bottom-0 left-0">
+          <button onClick={handleBackClick} className="bg-white text-black !text-base font-medium py-3 px-5 rounded text-right font-PlusJakartaSans text-lg leading-6 ml-[20px] border border-gray">
             Back
           </button>
-          <button onClick={handleFinishClick} className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+          <button onClick={handleFinishClick} className="bg-black text-white !text-base font-medium py-3 px-7 ml-4 rounded text-right font-PlusJakartaSans text-lg leading-6">
             Finish
           </button>
         </div>
