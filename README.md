@@ -4,7 +4,7 @@ Hey there! This is my build for the LavaLab Spring 2024 Developer Challenge.
 
 ## Features
 
-- **Quick Profile Dropdown**: Ever wanted to see your name (my name) in a dropdown? Just click your profile pic!
+- **Quick Profile Dropdown**: Ever wanted to see my name in a dropdown? Just click the profile pic!
 - **Dark/Light Mode Magic**: Toggle between two NavBar themes with a flick of a switch!
 - **Friendly Buttons**: 'Back' and 'Finish' buttons that don't just sit there — they talk back with a message!
 
