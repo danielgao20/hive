@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# LavaLab Spring 2024 Challenge App 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there! This is my build of the LavaLab Spring 2024 Developer Challenge.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Quick Profile Dropdown**: Ever wanted to see your name (my name) in a dropdown? Just click your profile pic!
+- **Dark/Light Mode Magic**: Toggle between two NavBar themes with a flick of a switch!
+- **Friendly Buttons**: 'Back' and 'Finish' buttons that don't just sit there — they talk back with a message!
 
-### `npm start`
+## Built With ❤️ and:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: For all those reusable components that make life easier.
+- **TailwindCSS**: Because who has time to write custom CSS when you've got Tailwind?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Get It Running
 
-### `npm test`
+Want to run this locally? Follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/danielgao20/hive.git
+cd hive
+npm install
+npm start
+```
+This will start the app on your local machine, and you should be able to view it at http://localhost:3000.
 
-### `npm run build`
+## See It Live!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Don't want to run it locally? No worries! Check out the live version here: https://danielhive.netlify.app/
