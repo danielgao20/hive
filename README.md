@@ -1,4 +1,4 @@
-# LavaLab Spring 2024 Challenge App 🚀
+# LavaLab Spring 2024 Dev Challenge 🚀
 
 Hey there! This is my build of the LavaLab Spring 2024 Developer Challenge.
 
